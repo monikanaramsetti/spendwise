@@ -1,0 +1,517 @@
+{
+  "users": [
+    {
+      "email": "nimmi@gmail.com",
+      "fullName": "nimmi",
+      "password": "Nimmi@12",
+      "createdAt": "2025-11-15T12:34:12.162Z",
+      "id": 1
+    },
+    {
+      "email": "ajay@gmail.com",
+      "fullName": "Ajay",
+      "password": "Ajay@1234",
+      "createdAt": "2025-11-15T12:52:51.484Z",
+      "id": 2
+    },
+    {
+      "email": "ramu@gmail.com",
+      "fullName": "ramu",
+      "password": "Ramu@123",
+      "createdAt": "2025-11-15T12:58:51.696Z",
+      "id": 3
+    },
+    {
+      "email": "tony@gmail.com",
+      "fullName": "tony",
+      "password": "Tony@1234",
+      "createdAt": "2025-11-16T06:20:31.242Z",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "fullName": "Monika",
+      "email": "naramsettimonika@gmail.com"
+    },
+    {
+      "id": 6,
+      "fullName": "Monika Naramsetti",
+      "email": "monikanaramsetti@gmail.com"
+    },
+    {
+      "email": "monikanaramsetti@gmail.com",
+      "fullName": "Naramsetti Monika",
+      "password": "@Monika10",
+      "createdAt": "2025-11-29T15:20:53.401Z",
+      "id": 7
+    },
+    {
+      "email": "1224@gmail.com",
+      "fullName": "1234",
+      "password": "123456",
+      "createdAt": "2025-11-29T16:55:29.826Z",
+      "id": 8
+    },
+    {
+      "email": "farhana@gmail.com",
+      "fullName": "Farhana",
+      "password": "far@123",
+      "createdAt": "2025-11-29T18:03:53.516Z",
+      "id": 9
+    },
+    {
+      "email": "csahithi1225@gmail.com",
+      "fullName": "Sahithi",
+      "password": "Sahithi@12",
+      "createdAt": "2025-11-29T18:46:23.853Z",
+      "id": 10
+    },
+    {
+      "email": "sanju@gmail.com",
+      "fullName": "Sanjana",
+      "password": "sanju10",
+      "createdAt": "2025-11-30T05:50:23.565Z",
+      "id": 11
+    },
+    {
+      "email": "swetha@gmail.com",
+      "fullName": "Swetha",
+      "password": "swetha10",
+      "createdAt": "2025-11-30T06:24:10.766Z",
+      "id": 12
+    },
+    {
+      "email": "ram@gmail.com",
+      "fullName": "Ram",
+      "password": "ramu10",
+      "createdAt": "2025-11-30T06:38:04.596Z",
+      "id": 13
+    },
+    {
+      "email": "akshay@gmail.com",
+      "fullName": "Akshay",
+      "password": "akhsay10",
+      "createdAt": "2025-11-30T08:57:52.234Z",
+      "id": 14
+    },
+    {
+      "email": "anja@gmail.com",
+      "fullName": "Anjaa",
+      "password": "anja10",
+      "createdAt": "2025-12-01T13:34:13.613Z",
+      "id": 15
+    },
+    {
+      "email": "riya@gmail.com",
+      "fullName": "riya",
+      "password": "riya@123",
+      "createdAt": "2025-12-01T13:56:33.141Z",
+      "id": 16
+    },
+    {
+      "email": "nandu@gmail.com",
+      "fullName": "Nandu",
+      "password": "nandu10",
+      "createdAt": "2025-12-01T15:46:19.768Z",
+      "id": 17
+    },
+    {
+      "email": "raya@gmail.com",
+      "fullName": "Raya",
+      "password": "raya10",
+      "createdAt": "2025-12-01T15:51:43.396Z",
+      "id": 18
+    },
+    {
+      "email": "nidhi@gmail.com",
+      "fullName": "Nidhi",
+      "password": "nidhi10",
+      "createdAt": "2025-12-01T16:47:49.571Z",
+      "id": 19
+    },
+    {
+      "email": "nithya@gmail.com",
+      "fullName": "Nithya",
+      "password": "nithya10",
+      "createdAt": "2025-12-01T18:03:53.314Z",
+      "id": 20
+    },
+    {
+      "email": "arya@gmail.com",
+      "fullName": "Arya",
+      "password": "arya10",
+      "createdAt": "2025-12-02T01:03:27.804Z",
+      "id": 21
+    },
+    {
+      "email": "nidhichandra@gmail.com",
+      "fullName": "nidhichandra",
+      "password": "nidhi08",
+      "createdAt": "2025-12-02T04:46:52.711Z",
+      "id": 22
+    },
+    {
+      "email": "ash@gmail.com",
+      "fullName": "ash",
+      "password": "ash1234",
+      "createdAt": "2025-12-02T05:21:02.043Z",
+      "id": 23
+    },
+    {
+      "email": "misty@gmail.com",
+      "fullName": "misty",
+      "password": "ash1234",
+      "createdAt": "2025-12-02T05:59:36.885Z",
+      "id": 24
+    },
+    {
+      "email": "jana@gmail.com",
+      "fullName": "jana",
+      "password": "jana10",
+      "createdAt": "2025-12-02T16:22:03.585Z",
+      "id": 25
+    },
+    {
+      "email": "mena@gmail.com",
+      "fullName": "Mena",
+      "password": "mena10",
+      "createdAt": "2025-12-08T03:30:35.195Z",
+      "id": 26
+    },
+    {
+      "id": 27,
+      "fullName": "nidhichandra08",
+      "email": "nidhichandra08@gmail.com"
+    }
+  ],
+  "savingsGoals": [
+    {
+      "title": "dress",
+      "targetAmount": 2000,
+      "deadline": "2026-12-20",
+      "userId": 1,
+      "savedAmount": 12,
+      "createdAt": "2025-11-15T13:15:58.924Z",
+      "id": 1
+    },
+    {
+      "title": "emergency",
+      "targetAmount": 2000,
+      "deadline": "2025-11-25",
+      "userId": 2,
+      "savedAmount": 100,
+      "createdAt": "2025-11-15T17:45:08.591Z",
+      "id": 2
+    },
+    {
+      "title": "Dress",
+      "targetAmount": 5000,
+      "deadline": "2026-01-25",
+      "userId": 4,
+      "savedAmount": 100,
+      "createdAt": "2025-11-16T13:26:49.422Z",
+      "id": 3
+    },
+    {
+      "title": "Vacation",
+      "targetAmount": 10000,
+      "deadline": "2026-05-20",
+      "userId": 4,
+      "savedAmount": 500,
+      "createdAt": "2025-11-16T13:28:05.563Z",
+      "id": 4
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "expense",
+      "amount": 50,
+      "category": "Food & Dining",
+      "description": "Grocery shopping",
+      "date": "2025-11-10",
+      "createdAt": "2025-11-10T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "type": "income",
+      "amount": 3000,
+      "category": "Salary",
+      "description": "Monthly salary",
+      "date": "2025-11-01",
+      "createdAt": "2025-11-01T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "type": "expense",
+      "amount": 120,
+      "category": "Transportation",
+      "description": "Gas and maintenance",
+      "date": "2025-11-12",
+      "createdAt": "2025-11-12T14:20:00Z"
+    },
+    {
+      "userId": 1,
+      "type": "expense",
+      "amount": "20.00",
+      "category": "Healthcare",
+      "description": "clinic",
+      "date": "2025-11-14",
+      "createdAt": "2025-11-14T11:11:26.946Z",
+      "id": "BFYHcjc"
+    },
+    {
+      "userId": 1,
+      "type": "expense",
+      "amount": "100",
+      "category": "Healthcare",
+      "description": "clinic",
+      "date": "2025-11-14",
+      "createdAt": "2025-11-14T11:24:50.133Z",
+      "id": "_O0-LHA"
+    },
+    {
+      "type": "expense",
+      "amount": "100",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-15",
+      "createdAt": "2025-11-15T12:36:28.075Z",
+      "id": "u2-a2Fg"
+    },
+    {
+      "type": "income",
+      "amount": "1000",
+      "category": "Salary",
+      "description": "salary",
+      "date": "2025-11-15",
+      "createdAt": "2025-11-15T12:40:59.647Z",
+      "id": "uvmdwBK"
+    },
+    {
+      "type": "expense",
+      "amount": "50",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-15",
+      "createdAt": "2025-11-15T12:47:41.775Z",
+      "id": "HOJyglZ"
+    },
+    {
+      "type": "income",
+      "amount": "5000",
+      "category": "Salary",
+      "description": "salary",
+      "date": "2025-11-15",
+      "userId": 2,
+      "createdAt": "2025-11-15T12:57:54.579Z",
+      "id": "7G2Tllh"
+    },
+    {
+      "type": "expense",
+      "amount": "1900",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-15",
+      "userId": 1,
+      "createdAt": "2025-11-15T13:26:54.755Z",
+      "id": "9AGSy1P"
+    },
+    {
+      "type": "expense",
+      "amount": "1900",
+      "category": "Shopping",
+      "description": "shopping",
+      "date": "2025-11-15",
+      "userId": 1,
+      "createdAt": "2025-11-15T13:27:33.566Z",
+      "id": "sgBOKPP"
+    },
+    {
+      "type": "expense",
+      "amount": "450",
+      "category": "Transportation",
+      "description": "car",
+      "date": "2025-11-15",
+      "userId": 1,
+      "createdAt": "2025-11-15T13:36:22.677Z",
+      "id": "njKy-zM"
+    },
+    {
+      "type": "expense",
+      "amount": "2000",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-15",
+      "userId": 2,
+      "createdAt": "2025-11-15T18:01:53.021Z",
+      "id": "JXvPvy2"
+    },
+    {
+      "type": "expense",
+      "amount": "700",
+      "category": "Transportation",
+      "description": "car",
+      "date": "2025-11-15",
+      "userId": 2,
+      "createdAt": "2025-11-15T18:02:18.264Z",
+      "id": "uGKRZT_"
+    },
+    {
+      "type": "expense",
+      "amount": "2000",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-16",
+      "id": "oTD1yDO"
+    },
+    {
+      "type": "expense",
+      "amount": "2100",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-16",
+      "id": "Uf8ep8u"
+    },
+    {
+      "type": "expense",
+      "amount": "2100",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-16",
+      "id": "BEiRXOt"
+    },
+    {
+      "type": "expense",
+      "amount": "1500",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-16",
+      "id": "OhbsS6r"
+    },
+    {
+      "type": "income",
+      "amount": "20000",
+      "category": "Salary",
+      "description": "salary",
+      "date": "2025-11-16",
+      "userId": 4,
+      "createdAt": "2025-11-16T13:21:56.240Z",
+      "id": "aQl8PCy"
+    },
+    {
+      "type": "expense",
+      "amount": "2200",
+      "category": "Food & Dining",
+      "description": "food",
+      "date": "2025-11-16",
+      "id": "qqIjVoM",
+      "userId": 4
+    },
+    {
+      "userId": 4,
+      "type": "expense",
+      "category": "Savings",
+      "amount": 100,
+      "description": "Contribution to Dress",
+      "date": "2025-11-16",
+      "createdAt": "2025-11-16T13:26:54.041Z",
+      "id": "zwNOIdn"
+    },
+    {
+      "userId": 4,
+      "type": "expense",
+      "category": "Savings",
+      "amount": 500,
+      "description": "Contribution to Vacation",
+      "date": "2025-11-16",
+      "createdAt": "2025-11-16T13:28:11.356Z",
+      "id": "jZipv_G"
+    },
+    {
+      "type": "income",
+      "amount": "30000",
+      "category": "Salary",
+      "description": "November month salary",
+      "date": "2025-11-29",
+      "userId": 5,
+      "createdAt": "2025-11-29T06:00:21.985Z",
+      "id": "pWQXK70"
+    },
+    {
+      "type": "expense",
+      "amount": "5000",
+      "category": "Shopping",
+      "description": "Festival",
+      "date": "2025-11-29",
+      "userId": 5,
+      "createdAt": "2025-11-29T06:01:01.702Z",
+      "id": "ZgKJ5uX"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "category": "Food & Dining",
+      "amount": 500,
+      "month": "2025-11",
+      "spent": 50
+    },
+    {
+      "id": "2",
+      "category": "Transportation",
+      "amount": 300,
+      "month": "2025-11",
+      "spent": 120
+    },
+    {
+      "id": "3",
+      "category": "Entertainment",
+      "amount": 200,
+      "month": "2025-11",
+      "spent": 0
+    },
+    {
+      "category": "Transportation",
+      "amount": "4000",
+      "month": "2025-11",
+      "spent": 0,
+      "id": "F5fF4ji"
+    },
+    {
+      "category": "Shopping",
+      "amount": "2000",
+      "month": "2025-11",
+      "spent": 0,
+      "userId": 1,
+      "id": "wxICCz6"
+    },
+    {
+      "category": "Food & Dining",
+      "amount": "1500",
+      "month": "2025-11",
+      "spent": 0,
+      "userId": 1,
+      "id": "QaivqaF"
+    },
+    {
+      "category": "Transportation",
+      "amount": "500",
+      "month": "2025-11",
+      "spent": 0,
+      "userId": 1,
+      "id": "9qlRUVt"
+    },
+    {
+      "category": "Food & Dining",
+      "amount": "2000",
+      "month": "2025-11",
+      "spent": 0,
+      "userId": 4,
+      "id": "-16JOH7"
+    }
+  ]
+}

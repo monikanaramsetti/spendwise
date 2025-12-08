@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Use a full-bleed background image for the whole site. 
+     Place your desired background image at /public/images/website-bg.jpg
+     (recommended: replace this placeholder with the Pinterest image you prefer).
+     A translucent overlay gradient is applied to improve contrast over content. */
+  background-color: #efe7ff; /* fallback color */
+  /* Use the same background image as Landing for a consistent site theme */
+  background-image: linear-gradient(rgba(7,7,10,0.15), rgba(7,7,10,0.15)), url('https://img.freepik.com/free-photo/violet-watercolor-texture-background_1083-172.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #1a202c;
+  transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
+}
+
+/* layout helpers */
+
+body.dark {
+  /* Keep the same image for dark mode but increase the overlay darkness for legibility */
+  background-color: #0b1220; /* fallback dark */
+  background-image: linear-gradient(rgba(3,3,6,0.6), rgba(3,3,6,0.6)), url('/images/website-bg-placeholder.svg');
+  color: #f9fafb;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Custom scrollbar - Refined Design */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(200, 182, 226, 0.1);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #9B7EC7 0%, #7E5DB8 100%);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #7E5DB8 0%, #6B4BA3 100%);
+}
+
+/* Animation utilities */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.4s ease-out;
+}
+
+.animate-slide-out {
+  animation: slideOut 0.35s ease-in forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.3s ease-out;
+}
+
+/* Glassmorphism Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Card hover effect - More subtle */
+.card-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Custom button styles - Refined Gradients */
+.btn {
+  @apply px-6 py-3 rounded-xl font-semibold transition-all duration-200 flex items-center justify-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-br from-purple-600 to-indigo-600 text-white hover:from-purple-700 hover:to-indigo-700 shadow-md hover:shadow-lg;
+}
+
+.btn-success {
+  @apply bg-gradient-to-br from-emerald-600 to-teal-600 text-white hover:from-emerald-700 hover:to-teal-700 shadow-md hover:shadow-lg;
+}
+
+.btn-danger {
+  @apply bg-gradient-to-br from-red-600 to-rose-600 text-white hover:from-red-700 hover:to-rose-700 shadow-md hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-white text-purple-700 border-2 border-purple-300 hover:bg-purple-50 hover:border-purple-400 shadow-sm hover:shadow-md;
+}
+
+/* Input styles - Refined Design */
+.input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-400 focus:border-purple-500 outline-none transition-all bg-white placeholder-gray-400;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.08);
+}
+
+.label {
+  @apply block text-sm font-semibold text-gray-700 mb-2;
+}
+
+/* Card styles - Refined */
+.card {
+  @apply glass-strong rounded-xl shadow-lg p-6 border border-purple-200 transition-all duration-200;
+}
+
+.card-modern {
+  @apply bg-white rounded-xl shadow-md p-6 border border-gray-200 transition-all duration-200;
+}
+
+.card-modern:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Badge styles */
+.badge {
+  @apply px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.badge-success {
+  @apply bg-green-100 text-green-800;
+}
+
+.badge-danger {
+  @apply bg-red-100 text-red-800;
+}
+
+.badge-warning {
+  @apply bg-amber-100 text-amber-800;
+}
+
+.badge-info {
+  @apply bg-blue-100 text-blue-800;
+}
+
+/* Gradient Backgrounds */
+.bg-gradient-modern {
+  background: linear-gradient(135deg, #D4C5F9 0%, #B8A4D4 100%);
+}
+
+.bg-gradient-light {
+  background: linear-gradient(135deg, rgba(212, 197, 249, 0.95) 0%, rgba(184, 164, 212, 0.95) 100%);
+}
+
+/* Modern Text Gradients */
+.text-gradient {
+  background: linear-gradient(135deg, #7E5DB8 0%, #6B4BA3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Utility for using Montserrat for the app brand */
+.font-montserrat {
+  font-family: 'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-weight: 700;
+}

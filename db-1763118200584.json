@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "type": "expense",
+      "amount": 50,
+      "category": "Food & Dining",
+      "description": "Grocery shopping",
+      "date": "2025-11-10",
+      "createdAt": "2025-11-10T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "type": "income",
+      "amount": 3000,
+      "category": "Salary",
+      "description": "Monthly salary",
+      "date": "2025-11-01",
+      "createdAt": "2025-11-01T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "type": "expense",
+      "amount": 120,
+      "category": "Transportation",
+      "description": "Gas and maintenance",
+      "date": "2025-11-12",
+      "createdAt": "2025-11-12T14:20:00Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "category": "Food & Dining",
+      "amount": 500,
+      "month": "2025-11",
+      "spent": 50
+    },
+    {
+      "id": "2",
+      "category": "Transportation",
+      "amount": 300,
+      "month": "2025-11",
+      "spent": 120
+    },
+    {
+      "id": "3",
+      "category": "Entertainment",
+      "amount": 200,
+      "month": "2025-11",
+      "spent": 0
+    }
+  ]
+}
